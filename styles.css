@@ -1,0 +1,22 @@
+header{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.link{
+  margin: 0px 5px;
+}
+
+.links{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.me{
+  height: 266px;
+  width: 395px;
+}
