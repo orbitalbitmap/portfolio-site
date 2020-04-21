@@ -1,21 +1,60 @@
-header{
-  display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 15px 10px;
-    border-bottom: 2px solid black;
+:root{
+  --text-color: #8882A9;
+  /*  mediumslateblue      8882A9 gprupley gray
+      bfbfb0 beigey      6d4f99 purple  */
+
+  /*--accent-color: #1E0213
+  /* 380C29 */
 }
 
+body{
+  background-color: #333;
+  color: var(--text-color);
+}
+
+h1{
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+header{
+  border-bottom: 2px solid var(--text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  margin: 15px 10px;
+}
+
+img{
+  height: 400px;
+  margin: 0px 10px;
+  width: 600px;
+}
+
+ul {
+  letter-spacing: 1px;
+  line-height: 21px;
+  list-style: inside;
+  margin-top: 25px;
+  text-align: left;
+}
 
 .about-me{
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: 40%;
+  padding-top: 10px;
+  margin-right: 10px;
 }
 
 .description{
-  width: 50%;
+  line-height: 25px;
+  font-size: large;
+  padding-left: 5px;
+}
+
+.description-container{
+  text-align: center;
 }
 
 .link{
@@ -23,24 +62,26 @@ header{
 }
 
 .link a {
-  color: black;
-  text-decoration: none;
+  color: var(--text-color);
   font-size: 25px;
+  text-decoration: none;
 }
 
 .links{
   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
 }
 
 .name{
   font-size: 40px;
 }
 
-.pic{
-  height: 219px;
-  width: 50%;
-  margin-right: 5px;
+.projects{
+  color: var(--text-color);
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 15px 10px;
+  text-align: center;
 }
