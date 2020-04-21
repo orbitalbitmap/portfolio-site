@@ -7,6 +7,13 @@
   /* 380C29 */
 }
 
+::selection {
+  background: #1E0213; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #1E0213; /* Gecko Browsers */
+}
+
 body{
   background-color: #333;
   color: var(--text-color);
