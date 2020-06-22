@@ -99,6 +99,21 @@ ul {
   min-width: 400;
 }
 
+.name {
+  font-size: 40px;
+}
+
+.pokemon-ui {
+  padding: 5px;
+}
+
+.projects {
+  color: var(--purp);
+  letter-spacing: 2px;
+  margin: 20px 10px 15px 10px;
+  text-align: center;
+}
+
 .social-link {
   margin: 0px 5px;
 }
@@ -114,15 +129,4 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   margin: 5px;
-}
-
-.name {
-  font-size: 40px;
-}
-
-.projects {
-  color: var(--purp);
-  letter-spacing: 2px;
-  margin: 20px 10px 15px 10px;
-  text-align: center;
 }
